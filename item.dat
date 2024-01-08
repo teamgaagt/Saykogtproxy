@@ -5,7 +5,7 @@ ENDCOLOR="\e[0m"
 clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
-if [ -f "shift" ]; then
+if [ -f "Saykogt" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
     rm shift
     sleep 1
